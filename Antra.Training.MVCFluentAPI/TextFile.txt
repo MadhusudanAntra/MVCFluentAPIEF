@@ -1,0 +1,42 @@
+﻿Tasks
+TaskParallel library
+System.Threading.Tasks
+
+
+task1   10
+task2    15
+task3     7
+
+
+public void Demo()
+{
+  task1
+  task2
+  task3
+}
+
+public Task Demo()
+{
+}
+
+public int Addition(int a, int b)
+{
+   return a+b;
+}
+
+public Task<int> Addition(int a, int b)
+{
+   return 5;
+}
+
+Parallel.Invoke()
+
+
+Task a = new Task(()=>{})
+
+a.Start();
+a.Wait();
+
+
+
+
